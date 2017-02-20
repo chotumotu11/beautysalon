@@ -1,0 +1,84 @@
+*{
+	box-sizing: border-box;
+}
+.nopadding{
+	padding:0;
+}
+.nomargin{
+	margin-bottom: 0;
+}
+.navbarCustom{
+	background-color: white;
+}
+.navlink{
+	background-color: black;
+}
+a:link{
+	color: white;
+}
+a:hover{
+	color: white;
+}
+a:active{
+	color: green;
+}
+a:visited{
+	color: white;
+}
+
+.slide{
+	width:100%;
+}
+a.black:link{
+	color: black;
+}
+a.black:visited{
+	color: black;
+}
+a.black:active{
+	color:black;
+}
+a.black:hover{
+	color:black;
+}
+.footer{
+	border-top-width: 3px;
+	border-top-color: #df1750;
+	border-top-style: solid; 
+}
+.shadow{
+	 box-shadow: 0px 0px 10px #888888;
+	 padding: 5%;
+	 padding-top:1%;
+	 margin-top: 5%;
+	 border-radius: 1%;
+}
+.pinkButton{
+	background-color: #df1750;
+	color: white;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.rightAlign{
+	text-align: right;
+}
+
+.padding-5{
+	padding:1%;
+}
+
+@media (min-width: 768px){
+	.overlapNegative{
+		margin-top: -15%;
+		background-color: white;
+	}
+}
+.pinktext{
+	color: #df1750;
+}
+.headingmain{
+	font-family: 'Snell Roundhand', cursive;
+}

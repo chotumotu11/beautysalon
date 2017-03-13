@@ -11,9 +11,10 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/mycss.css" rel="stylesheet">
 
-    
+
   </head>
   <body>
+  <!--This is the start of bootstarp based navigation bar -->
   <nav class="navbar navbar-default nomargin navbarCustom">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -48,7 +49,10 @@
         </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
+<!-- End of bootstarp based navbar -->
 <div class="container-fluid">
+<!--In our project the navigation bar for the desktop site is not on the navigation bar. Therefore we define it seperately
+and make sure that it gets hidden for small devices . The navigation bar for the small devices is on the navigation bar . -->
   <div class="row">
     <div class="col-sm-12 hidden-xs navlink">
       <ul class="nav nav-pills">
@@ -61,11 +65,20 @@
       </ul>
     </div>
   </div>
+
   <div class="row">
+
+
+    <!--This is the main slider image. the slide class gives the image a width of 100%. nopadding class removes all padding-->
     <div class="col-xs-12 nopadding">
       <img src="Assets/Slide.png" class="img-responsive slide"  alt="Slide Image">
     </div>
+
+    <!--Code for the Welcome block . When on a mobile device the block takes up all the 12 columns in the bootstrap grid system.
+    When on tablet of desktop computer the block takes up 4 columns of the bootstarp grid system.-->
     <div class="col-xs-12 col-sm-4">
+
+    <!-- shadow gives the shadow box 3d effect . In case of non mobile the overlapNegative makes sure that the blocks are coverging a bit of the slide image -->
       <section class="shadow overlapNegative">
         <article>
             <header>
@@ -77,12 +90,17 @@
             <p>
                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed faucibus massa, nec porta massa. Donec porttitor ex dolor, quis mollis mi luctus et. Etiam consectetur nisl eu convallis pulvinar. Phasellus venenatis eu tellus eu placerat. Aliquam.
             </p>
+            <!--The right align class aligns the contents to the right -->
             <footer class="rightAlign">
-              <span class="pinkButton">More</span> 
+              <span class="pinkButton">More</span>
             </footer>
         </article>
       </section>
     </div>
+
+
+    <!-- Code for the about us block When on a mobile device the block takes up all the 12 columns in the bootstrap grid system.
+    When on tablet of desktop computer the block takes up 4 columns of the bootstarp grid system.-->
     <div class="col-xs-12 col-sm-4">
       <section class="shadow overlapNegative">
         <article>
@@ -96,11 +114,15 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed faucibus massa, nec porta massa. Donec porttitor ex dolor, quis mollis mi luctus et. Etiam consectetur nisl eu convallis pulvinar. Phasellus venenatis eu tellus eu placerat. Aliquam.
           </p>
           <footer class="rightAlign">
-              <span class="pinkButton">More</span> 
-          </footer>        
+              <span class="pinkButton">More</span>
+          </footer>
         </article>
       </section>
     </div>
+
+
+    <!--Code for the Services block When on a mobile device the block takes up all the 12 columns in the bootstrap grid system.
+    When on tablet of desktop computer the block takes up 4 columns of the bootstarp grid system.-->
     <div class="col-xs-12 col-sm-4">
       <section class="shadow overlapNegative">
         <article>
@@ -114,22 +136,30 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed faucibus massa, nec porta massa. Donec porttitor ex dolor, quis mollis mi luctus et. Etiam consectetur nisl eu convallis pulvinar. Phasellus venenatis eu tellus eu placerat. Aliquam.
           </p>
           <footer class="rightAlign">
-              <span class="pinkButton">More</span> 
+              <span class="pinkButton">More</span>
           </footer>
         </article>
       </section>
     </div>
+
+
+    <!--This is a heading which takes up all the 12 columns irrespective of the screen size. -->
     <div class="col-xs-12">
       <h3 class="pinktext">Special Spa Services</h3>
     </div>
+
+
+    <!-- This is a Special service image block. In mobile it takes up 12 columns and in destop 3 columns.  -->
     <div class="col-xs-12 col-sm-3 ">
     <p class="text-center">
        <img src="Assets/Special Service_image.png" alt="rocks">
     </p>
     </div>
+
+    <!-- In moble takes up 12 columns , but in desktop takes up 9 columns -->
     <div class="col-xs-12 col-sm-9">
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non libero tincidunt risus volutpat tincidunt vitae sed nibh. Sed dignissim tortor ac quam bibendum, in pellentesque neque lobortis. 
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non libero tincidunt risus volutpat tincidunt vitae sed nibh. Sed dignissim tortor ac quam bibendum, in pellentesque neque lobortis.
       </p>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non libero tincidunt risus volutpat tincidunt vitae sed nibh. Sed dignissim tortor ac quam bibendum, in pellentesque neque lobortis. In hac habitasse platea dictumst.
@@ -138,12 +168,23 @@
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non libero tincidunt risus volutpat tincidunt vitae sed nibh. Sed dignissim tortor ac quam bibendum, in pellentesque neque lobortis.
       </p>
     </div>
+
+
   </div>
+
+
+  <!-- Start of second row. -->
   <div class="row">
+
+  <!-- This is the pink bar at the bottom. It expands for 12 columns in both desktop and mobile.  -->
     <div class="col-xs-12">
         <p class="footer"></p>
     </div>
+
+    <!-- This stacked nav is only visible in mobile view. It expands for 12 columns.  -->
     <div class="col-xs-12 visible-xs-block text-center">
+
+
         <ul class="nav nav-pills nav-stacked black">
           <li role="presentation"><a class="black" href="#">Home</a></li>
           <li role="presentation"><a class="black" href="#">About Us</a></li>
@@ -151,24 +192,35 @@
           <li role="presentation"><a class="black" href="#">Packages</a></li>
           <li role="presentation"><a class="black" href="#">Contact</a></li>
           <li role="presentation"><a class="black" href="#">Courses</a></li>
-      </ul>
-      </div>
-      <div class="col-xs-12 text-center visible-xs-block">
+        </ul>
+
+
+    </div>
+
+
+    <!--This is the copyright information . This is visible only on the mobile view. This expands upto 12 columns . -->
+    <div class="col-xs-12 text-center visible-xs-block">
         &copy;Copyright 2010-2016, Beauty Salon All rights reserved
-      </div>
-       <div class="hidden-xs col-sm-6 padding-5">
+    </div>
+
+    <!-- hidden-xs makes it visible in desktop and tablet view only. This is 6 columns long. -->
+    <div class="hidden-xs col-sm-6 padding-5">
         &copy;Copyright 2010-2016, Beauty Salon All rights reserved
-      </div>
-      <div class="col-sm-6 hidden-xs text-right padding-5">
+    </div>
+
+
+    <!--This only visible in dekstop and tablet view . This expands 6 columns long. -->
+    <div class="col-sm-6 hidden-xs text-right padding-5">
           <a class="black padding-5"  href="#">Home</a>
           <a class="black padding-5" href="#">About Us</a>
           <a class="black padding-5" href="#">Our Clients</a>
           <a class="black padding-5" href="#">Packages</a>
           <a class="black padding-5" href="#">Contact</a>
           <a class="black padding-5" href="#">Courses</a>
-      </div>
-  </div>
-  </div>
+    </div>
+
+  </div> <!--End of second row. -->
+</div> <!-- End of container fluid -->
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

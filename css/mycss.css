@@ -44,7 +44,7 @@ a.black:hover{
 .footer{
 	border-top-width: 3px;
 	border-top-color: #df1750;
-	border-top-style: solid; 
+	border-top-style: solid;
 }
 .shadow{
 	 box-shadow: 0px 0px 10px #888888;
@@ -81,4 +81,27 @@ a.black:hover{
 }
 .headingmain{
 	font-family: 'Snell Roundhand', cursive;
+}
+.margins{
+	margin-left: 0;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.pinksearch:active{
+	border: #df1750;
+	border-style: solid;
+}
+.pinksearch:hover{
+	border: #df1750;
+	border-style: solid;
+}
+.pinksearch{
+	border: #df1750;
+	border-style: solid;
+}
+.pinkbackground{
+	background-color: #df1750;
+	padding-left: 20px;
+	padding-right: 20px;
 }

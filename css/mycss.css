@@ -97,6 +97,7 @@ a.black:hover{
 .pinksearch{
 	box-shadow: 0 0 1em pink;
 	margin-right: 0;
+	text-align: right;
 }
 .pinkbackground{
 	background-color: #df1750;
@@ -109,4 +110,7 @@ a.black:hover{
 }
 .navbar-form {
 	text-align: center;
+}
+.pinkbutton{
+	text-align: left;
 }

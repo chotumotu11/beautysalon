@@ -89,19 +89,24 @@ a.black:hover{
 	margin-bottom: 20px;
 }
 .pinksearch:active{
-	border: #df1750;
-	border-style: solid;
+	box-shadow: 0 0 1em pink;
 }
 .pinksearch:hover{
-	border: #df1750;
-	border-style: solid;
+	box-shadow: 0 0 1em pink;
 }
 .pinksearch{
-	border: #df1750;
-	border-style: solid;
+	box-shadow: 0 0 1em pink;
+	margin-right: 0;
 }
 .pinkbackground{
 	background-color: #df1750;
 	padding-left: 20px;
 	padding-right: 20px;
+}
+.navbar-form .form-group input {
+	display: inline-block;
+	vertical-align: top;
+}
+.navbar-form {
+	text-align: center;
 }

@@ -6,224 +6,148 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Beauty Salon</title>
-
-    <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/mycss.css" rel="stylesheet">
-
-
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+    <link href="css/maincss.css" rel="stylesheet" />
   </head>
   <body>
-  <!--This is the start of bootstarp based navigation bar -->
-  <nav class="navbar navbar-default nomargin navbarCustom">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
+    <header>
+      <nav class="navbar navbar-default">
+        <div class="container-fluid nopadding">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-         <a class="navbar-brand" href="#"><span class="pinktext headingmain">Beauty Salon</span></a>
+            <div class="navbar-brand"><span class="pinktext">Beauty Salon</span></div>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav nav-pills nav-stacked visible-xs-block">
+              <li role="presentation"><a href="#">Home</a></li>
+              <li role="presentation"><a href="#">About Us</a></li>
+              <li role="presentation"><a href="#">Our Client</a></li>
+              <li role="presentation"><a href="#">Packages</a></li>
+              <li role="presentation"><a href="#">Contact</a></li>
+              <li role="presentation"><a href="#">Courses</a></li>
+            </ul>
+            <form class="navbar-form makeright">
+             <div class="form-group">
+               <input type="text" class="makeinline form-control" placeholder="Search">
+               <button type="submit" class="btn btn-default">Go</button>
+             </div>
+           </form>
+          </div><!-- /.navbar-collapse -->
+
+          <ul class="nav nav-pills hidden-xs">
+            <li role="presentation"><a href="#">Home</a></li>
+            <li role="presentation"><a href="#">About Us</a></li>
+            <li role="presentation"><a href="#">Our Client</a></li>
+            <li role="presentation"><a href="#">Packages</a></li>
+            <li role="presentation"><a href="#">Contact</a></li>
+            <li role="presentation"><a href="#">Courses</a></li>
+          </ul>
+        </div><!-- /.container-fluid-->
+      </nav>
+    </header>
+    <p>
+      <img class="fullwidth" src="Assets/Slide.png" alt="Slider" />
+    </p>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12 col-sm-4">
+          <article class="shadow overlapNegative">
+            <header>
+              <h3 class="pinktext">Welcome</h3>
+            </header>
+              <p>
+                <img src="Assets/Welcome.jpg" alt="Welcome Image" class="fullwidth">
+              </p>
+              <p class="margins">
+                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed faucibus massa, nec porta massa. Donec porttitor ex dolor, quis mollis mi luctus et. Etiam consectetur nisl eu convallis pulvinar. Phasellus venenatis eu tellus eu placerat. Aliquam.
+              </p>
+                  <!--The right align class aligns the contents to the right -->
+              <footer class="rightAlign">
+                <button type="submit" class="btn btn-default">More</button>
+              </footer>
+          </article>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+          <article class="shadow overlapNegative">
+            <header>
+              <h3 class="pinktext">About us</h3>
+            </header>
+            <p>
+              <img src="Assets/About_us.jpg" alt="About US Image" class="fullwidth">
+            </p>
+            <p class="margins">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed faucibus massa, nec porta massa. Donec porttitor ex dolor, quis mollis mi luctus et. Etiam consectetur nisl eu convallis pulvinar. Phasellus venenatis eu tellus eu placerat. Aliquam.
+            </p>
+            <footer class="rightAlign">
+              <button type="submit" class="btn btn-default">More</button>
+            </footer>
+          </article>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+          <article class="shadow overlapNegative">
+            <header>
+              <h3 class="pinktext">Services</h3>
+            </header>
+            <p>
+              <img src="Assets/Services.jpg" alt="Services Image" class="fullwidth">
+            </p>
+            <p class="margins">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed faucibus massa, nec porta massa. Donec porttitor ex dolor, quis mollis mi luctus et. Etiam consectetur nisl eu convallis pulvinar. Phasellus venenatis eu tellus eu placerat. Aliquam.
+            </p>
+            <footer class="rightAlign">
+              <button type="submit" class="btn btn-default">More</button>
+            </footer>
+          </article>
+        </div>
+        <div class="col-xs-12 col-sm-12">
+          <h3 class="pinktext">Special Spa Services</h3>
+        </div>
+        <div class="col-xs-12 col-sm-2 ">
+          <p class="text-center">
+             <img src="Assets/Special_Service_image.png" alt="rocks">
+          </p>
+        </div>
+        <div class="col-xs-12 col-sm-10">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non libero tincidunt risus volutpat tincidunt vitae sed nibh. Sed dignissim tortor ac quam bibendum, in pellentesque neque lobortis.
+          </p>
+          <p>
+          Vestibulum sed leo velit. Etiam ultricies ex purus, at finibus tortor ultrices a. Proin vel quam fermentum, volutpat quam porttitor, malesuada quam. Sed dignissim sem non eros pharetra, vel maximus tortor finibus. Ut dapibus ullamcorper augue, a feugiat dui maximus tincidunt. In vel sapien dui. Nulla vitae aliquam metus. Ut suscipit justo augue, sit amet ultrices massa tristique in
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non libero tincidunt risus volutpat tincidunt vitae sed nibh. Sed dignissim tortor ac quam bibendum, in pellentesque neque lobortis.
+          </p>
+        </div>
+      </div>
+    </div>
+    <footer class="padding10px">
+      <p class="topmargin">
+      </p>
+      <div class="pullright aligncenter padding7px">
+          <a class="padding10" href="#">Home</a><p class="visible-xs-block"></p>
+          <a class="padding10" href="#">About Us</a><p class="visible-xs-block"> </p>
+          <a class="padding10" href="#">Our Client</a><p class="visible-xs-block"> </p>
+          <a class="padding10" href="#">Packages</a><p class="visible-xs-block"> </p>
+          <a class="padding10" href="#">Contact</a><p class="visible-xs-block"> </p>
+          <a href="#">Courses</a>
       </div>
 
-      <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse fullwidth" id="bs-example-navbar-collapse-1">
-              <div class="row visible-xs-block navlink text-center">
-                <ul class="nav nav-pills nav-stacked">
-                  <li role="presentation"><a href="#">Home</a></li>
-                  <li role="presentation"><a href="#">About Us</a></li>
-                  <li role="presentation"><a href="#">Our Clients</a></li>
-                  <li role="presentation"><a href="#">Packages</a></li>
-                  <li role="presentation"><a href="#">Contact</a></li>
-                  <li role="presentation"><a href="#">Courses</a></li>
-                </ul>
-              </div>
-              <form class="navbar-form navbar-right">
-                <div class="form-group">
-                  <div class ="row">
-                    <div class="col-sm-8 col-xs-8">
-                      <input type="text" class="pinksearch form-control" placeholder="Search">
-                    </div>
-                  <div class="col-sm-4 col-xs-4">
-                      <button type="submit" class="btn btn-default pinkbackground pinkbutton">GO</button>
-                  </div>
-                  </div>
-                 </div>
-              </form>
-
-        </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-<!-- End of bootstarp based navbar -->
-<div class="container-fluid">
-<!--In our project the navigation bar for the desktop site is not on the navigation bar. Therefore we define it seperately
-and make sure that it gets hidden for small devices . The navigation bar for the small devices is on the navigation bar . -->
-  <div class="row">
-    <div class="col-sm-12 hidden-xs navlink">
-      <ul class="nav nav-pills">
-        <li role="presentation"><a href="#">Home</a></li>
-        <li role="presentation"><a href="#">About Us</a></li>
-        <li role="presentation"><a href="#">Our Clients</a></li>
-        <li role="presentation"><a href="#">Packages</a></li>
-        <li role="presentation"><a href="#">Contact</a></li>
-        <li role="presentation"><a href="#">Courses</a></li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="row">
-
-
-    <!--This is the main slider image. the slide class gives the image a width of 100%. nopadding class removes all padding-->
-    <div class="col-xs-12 nopadding">
-      <img src="Assets/Slide.png" class="img-responsive slide"  alt="Slide Image">
-    </div>
-
-    <!--Code for the Welcome block . When on a mobile device the block takes up all the 12 columns in the bootstrap grid system.
-    When on tablet of desktop computer the block takes up 4 columns of the bootstarp grid system.-->
-    <div class="col-xs-12 col-sm-4">
-
-    <!-- shadow gives the shadow box 3d effect . In case of non mobile the overlapNegative makes sure that the blocks are coverging a bit of the slide image -->
-      <article class="shadow overlapNegative">
-        <header>
-          <h3 class="pinktext">Welcome</h3>
-        </header>
-          <p>
-            <img src="Assets/Welcome.jpg" alt="Welcome Image" class="slide">
-          </p>
-          <p class="margins">
-               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed faucibus massa, nec porta massa. Donec porttitor ex dolor, quis mollis mi luctus et. Etiam consectetur nisl eu convallis pulvinar. Phasellus venenatis eu tellus eu placerat. Aliquam.
-          </p>
-              <!--The right align class aligns the contents to the right -->
-          <footer class="rightAlign">
-            <span class="pinkButton">More</span>
-          </footer>
-      </article>
-    </div>
-
-
-    <!-- Code for the about us block When on a mobile device the block takes up all the 12 columns in the bootstrap grid system.
-    When on tablet of desktop computer the block takes up 4 columns of the bootstarp grid system.-->
-    <div class="col-xs-12 col-sm-4">
-        <article class="shadow overlapNegative">
-          <header>
-            <h3 class="pinktext">About us</h3>
-          </header>
-          <p>
-            <img src="Assets/About_us.jpg" alt="About US Image" class="slide">
-          </p>
-          <p class="margins">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed faucibus massa, nec porta massa. Donec porttitor ex dolor, quis mollis mi luctus et. Etiam consectetur nisl eu convallis pulvinar. Phasellus venenatis eu tellus eu placerat. Aliquam.
-          </p>
-          <footer class="rightAlign">
-              <span class="pinkButton">More</span>
-          </footer>
-        </article>
-    </div>
-
-
-    <!--Code for the Services block When on a mobile device the block takes up all the 12 columns in the bootstrap grid system.
-    When on tablet of desktop computer the block takes up 4 columns of the bootstarp grid system.-->
-    <div class="col-xs-12 col-sm-4">
-        <article class="shadow overlapNegative">
-          <header>
-            <h3 class="pinktext">Services</h3>
-          </header>
-          <p>
-            <img src="Assets/Services.jpg" alt="Services Image" class="slide">
-          </p>
-          <p class="margins">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed faucibus massa, nec porta massa. Donec porttitor ex dolor, quis mollis mi luctus et. Etiam consectetur nisl eu convallis pulvinar. Phasellus venenatis eu tellus eu placerat. Aliquam.
-          </p>
-          <footer class="rightAlign">
-              <span class="pinkButton">More</span>
-          </footer>
-        </article>
-    </div>
-
-
-    <!--This is a heading which takes up all the 12 columns irrespective of the screen size. -->
-    <div class="col-xs-12">
-      <h3 class="pinktext">Special Spa Services</h3>
-    </div>
-
-
-    <!-- This is a Special service image block. In mobile it takes up 12 columns and in destop 3 columns.  -->
-    <div class="col-xs-12 col-sm-2 ">
-    <p class="text-center">
-       <img src="Assets/Special_Service_image.png" alt="rocks">
-    </p>
-    </div>
-
-    <!-- In moble takes up 12 columns , but in desktop takes up 9 columns -->
-    <div class="col-xs-12 col-sm-10">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non libero tincidunt risus volutpat tincidunt vitae sed nibh. Sed dignissim tortor ac quam bibendum, in pellentesque neque lobortis.
+      <p class="pullleft aligncenter mobileallpadding padding7px">
+          &copy;Copyright 2010-2016, Beauty Salon. All rights reserved.
       </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non libero tincidunt risus volutpat tincidunt vitae sed nibh. Sed dignissim tortor ac quam bibendum, in pellentesque neque lobortis. In hac habitasse platea dictumst.
+      <p class="clearfix">
+
       </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non libero tincidunt risus volutpat tincidunt vitae sed nibh. Sed dignissim tortor ac quam bibendum, in pellentesque neque lobortis.
-      </p>
-    </div>
-
-
-  </div>
-
-
-  <!-- Start of second row. -->
-  <div class="row">
-
-  <!-- This is the pink bar at the bottom. It expands for 12 columns in both desktop and mobile.  -->
-    <div class="col-xs-12">
-        <p class="footer"></p>
-    </div>
-
-    <!-- This stacked nav is only visible in mobile view. It expands for 12 columns.  -->
-    <div class="col-xs-12 visible-xs-block text-center">
-
-
-        <ul class="nav nav-pills nav-stacked black">
-          <li role="presentation"><a class="black" href="#">Home</a></li>
-          <li role="presentation"><a class="black" href="#">About Us</a></li>
-          <li role="presentation"><a class="black" href="#">Our Clients</a></li>
-          <li role="presentation"><a class="black" href="#">Packages</a></li>
-          <li role="presentation"><a class="black" href="#">Contact</a></li>
-          <li role="presentation"><a class="black" href="#">Courses</a></li>
-        </ul>
-
-
-    </div>
-
-
-    <!--This is the copyright information . This is visible only on the mobile view. This expands upto 12 columns . -->
-    <div class="col-xs-12 text-center visible-xs-block">
-        &copy;Copyright 2010-2016, Beauty Salon All rights reserved
-    </div>
-
-    <!-- hidden-xs makes it visible in desktop and tablet view only. This is 6 columns long. -->
-    <div class="hidden-xs col-sm-6 padding-5">
-        &copy;Copyright 2010-2016, Beauty Salon All rights reserved
-    </div>
-
-
-    <!--This only visible in dekstop and tablet view . This expands 6 columns long. -->
-    <div class="col-sm-6 hidden-xs text-right padding-5">
-          <a class="black padding-5"  href="#">Home</a>
-          <a class="black padding-5" href="#">About Us</a>
-          <a class="black padding-5" href="#">Our Clients</a>
-          <a class="black padding-5" href="#">Packages</a>
-          <a class="black padding-5" href="#">Contact</a>
-          <a class="black padding-5" href="#">Courses</a>
-    </div>
-
-  </div> <!--End of second row. -->
-</div> <!-- End of container fluid -->
-
-
+    </footer>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery-3.1.1.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->

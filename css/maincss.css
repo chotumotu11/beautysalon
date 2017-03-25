@@ -8,6 +8,23 @@
   .navbar .form-group,.navbar .nav-stacked {
     text-align: center;
   }
+
+  .mobileallpadding{
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .container-fluid>.navbar-header{
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .container-fluid>.navbar-collapse{
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .navbar-collapse .navbar-form{
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
 
 .navbar .container-fluid .nav{
@@ -30,7 +47,9 @@
 
 .nopadding{
   padding-left: 0;
+  padding-top: 20px;
   padding-right: 0;
+  background-color: white;
 }
 .fullwidth{
   width: 100%;
@@ -79,8 +98,18 @@
     float: left;
   }
   .padding10{
-    padding-right: 10%;
+    padding-right: 3vw;
   }
+
+  .navbar > .container-fluid .navbar-brand{
+    margin-left: 0;
+  }
+  .navbar-form .form-control{
+    width: 300px;
+  }
+
+
+
 
 }
 
@@ -98,7 +127,7 @@ footer{
 }
 
 .padding10px{
-  padding-top: 10px;
+  padding-top: 20px;
 }
 
 .clearfix{
@@ -112,4 +141,42 @@ footer{
 
 .aligncenter{
   text-align: center;
+}
+footer a:link,a:hover,a:active,a:visited{
+  color:black;
+  text-decoration: none;
+}
+
+.rightAlign .btn{
+  background-color:#df1750;
+  padding: 0 10px;
+  border-radius: 0;
+  color: white;
+}
+.navbar-collapse{
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.form-control:focus,.form-control{
+  border-color: #df1750;
+  box-shadow: none;
+  border-radius: 0;
+  border-width: 2px;
+}
+.navbar-form .form-group .btn {
+  background-color: #df1750;
+  border-radius: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+}
+
+.navbar-brand .pinktext {
+  font-family: 'Great Vibes', cursive;
+  font-size: 2em;
+}
+
+.padding7px{
+  padding-top: 10px;
 }

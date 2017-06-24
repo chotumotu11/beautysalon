@@ -12,8 +12,8 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-default">
-        <div class="container-fluid nopadding">
+      <nav class="navbar navbar-default nopadding">
+        <div class="container">
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -42,22 +42,25 @@
              </div>
            </form>
           </div><!-- /.navbar-collapse -->
-
-          <ul class="nav nav-pills hidden-xs">
-            <li role="presentation"><a href="#">Home</a></li>
-            <li role="presentation"><a href="#">About Us</a></li>
-            <li role="presentation"><a href="#">Our Client</a></li>
-            <li role="presentation"><a href="#">Packages</a></li>
-            <li role="presentation"><a href="#">Contact</a></li>
-            <li role="presentation"><a href="#">Courses</a></li>
-          </ul>
         </div><!-- /.container-fluid-->
       </nav>
+      <nav class="navbar navbar-default iamblack hidden-xs">
+         <div class="container">
+            <ul class="nav nav-pills">
+              <li role="presentation"><a href="#">Home</a></li>
+              <li role="presentation"><a href="#">About Us</a></li>
+              <li role="presentation"><a href="#">Our Client</a></li>
+              <li role="presentation"><a href="#">Packages</a></li>
+              <li role="presentation"><a href="#">Contact</a></li>
+              <li role="presentation"><a href="#">Courses</a></li>
+            </ul>
+        </div>
+      </nav>
     </header>
-    <p>
-      <img class="fullwidth" src="Assets/Slide.png" alt="Slider" />
+     <p>
+        <img class="fullwidth" src="Assets/Slide.png" alt="Slider" />
     </p>
-    <div class="container-fluid">
+    <div class="container">
       <div class="row">
         <div class="col-xs-12 col-sm-4">
           <article class="shadow overlapNegative">
@@ -108,15 +111,15 @@
             </footer>
           </article>
         </div>
-        <div class="col-xs-12 col-sm-12">
+        <div class="col-xs-12 ">
           <h3 class="pinktext">Special Spa Services</h3>
         </div>
-        <div class="col-xs-12 col-sm-2 ">
+        <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2 ">
           <p class="text-center">
              <img src="Assets/Special_Service_image.png" alt="rocks">
           </p>
         </div>
-        <div class="col-xs-12 col-sm-10">
+        <div class="col-xs-12 col-sm-9 col-sm-offset-1 col-md-10 col-lg-10 col-md-offset-0 col-lg-offset-0">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non libero tincidunt risus volutpat tincidunt vitae sed nibh. Sed dignissim tortor ac quam bibendum, in pellentesque neque lobortis.
           </p>
@@ -128,11 +131,13 @@
           </p>
         </div>
       </div>
-    </div>
-    <footer class="padding10px">
+    </div> <!-- End of main container. -->.
+  
+    <div class="container">
+      <footer class="padding10px footerFixSetFontSizeTo10">
       <p class="topmargin">
       </p>
-      <div class="pullright aligncenter padding7px">
+      <div class="pullright aligncenter footermenu padding7px alignRight">
           <a class="padding10" href="#">Home</a><p class="visible-xs-block"></p>
           <a class="padding10" href="#">About Us</a><p class="visible-xs-block"> </p>
           <a class="padding10" href="#">Our Client</a><p class="visible-xs-block"> </p>
@@ -141,13 +146,14 @@
           <a href="#">Courses</a>
       </div>
 
-      <p class="pullleft aligncenter mobileallpadding padding7px">
+      <p class="pullleft aligncenter footermenu mobileallpadding padding7px">
           &copy;Copyright 2010-2016, Beauty Salon. All rights reserved.
       </p>
       <p class="clearfix">
 
       </p>
     </footer>
+    </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery-3.1.1.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->

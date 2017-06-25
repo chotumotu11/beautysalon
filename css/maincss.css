@@ -94,7 +94,7 @@
     text-align: right;
   }
   .overlapNegative{
-		margin-top: -15%;
+		margin-top: -28%;
 		background-color: white;
 	}
   .mobilecenter{
@@ -197,4 +197,8 @@ footer a:link,a:hover,a:active,a:visited{
   .footerFixSetFontSizeTo10{
     font-size: 12px;
   }
+}
+
+.navbar-default .navbar-toggle{
+  border: none;
 }

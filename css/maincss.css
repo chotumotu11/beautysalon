@@ -37,6 +37,11 @@
   color:white;
 }
 
+nav.iamblack {
+  border-radius: 0;
+  border: none;
+}
+
 .navbar a:link{
 	color: white;
 }

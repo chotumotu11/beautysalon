@@ -40,7 +40,7 @@
 	color: white;
 }
 .navbar a:hover{
-	color: white;
+	color: #df1750;
 }
 .navbar a:active{
 	color: green;
@@ -94,7 +94,7 @@
     text-align: right;
   }
   .overlapNegative{
-		margin-top: -28%;
+		margin-top: -26%;
 		background-color: white;
 	}
   .mobilecenter{
@@ -196,6 +196,9 @@ footer a:link,a:hover,a:active,a:visited{
 @media (min-width: 768px) and (max-width: 991px) {
   .footerFixSetFontSizeTo10{
     font-size: 12px;
+  }
+  .overlapNegative{
+    margin-top:-35%;
   }
 }
 

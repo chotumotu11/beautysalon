@@ -45,7 +45,7 @@ nav.iamblack {
 .navbar a:link{
 	color: white;
 }
-.navbar a:hover{
+.navbar .container .nav li a:hover{
 	color: #df1750;
 }
 .navbar a:active{
@@ -242,4 +242,8 @@ footer a:link,a:hover,a:active,a:visited{
 
 .col-xs-12>.pinktext {
   margin-top: 40px;
+}
+
+.navbar-form.makeright {
+  border:none;
 }

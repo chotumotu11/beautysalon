@@ -267,3 +267,8 @@ footer a:link,a:hover,a:active,a:visited{
 .navbar-form.makeright {
   border:none;
 }
+
+/*Fixes the vertical space alignment in the navbar in desktop view. */
+.navbar .container .nav {
+  padding-top: 5px;
+}

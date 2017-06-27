@@ -25,7 +25,13 @@
 
   .aligncenter{
   text-align: center;
-}
+  }
+
+  /*Fixes the vertical space alignment in the navbar in mobile view. */
+  .navbar .container .nav {
+      padding-top: 5px;
+      padding-bottom: 5px;
+  }
  
 }
 
@@ -152,7 +158,10 @@ nav.iamblack {
     margin-bottom: 35px;
   }
 
-
+  /*Fixes the vertical space alignment in the navbar in desktop view. */
+  .navbar .container .nav {
+  padding-top: 5px;
+  }
 }
 
 .topmargin{
@@ -268,7 +277,5 @@ footer a:link,a:hover,a:active,a:visited{
   border:none;
 }
 
-/*Fixes the vertical space alignment in the navbar in desktop view. */
-.navbar .container .nav {
-  padding-top: 5px;
-}
+
+

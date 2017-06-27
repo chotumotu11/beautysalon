@@ -1,26 +1,23 @@
 
 @media (max-width: 767px){
+  /*Converts the form into an Inline element and the width is given using a relative sizing so that the spacing matches with the desging provided in mobile mode */
   .form-group .makeinline{
     display: inline-block;
     width: 70vw;
   }
-
+  
+  /*Makes the form aling center and the links in the navbar also get aligned center in the mobile mode ofcourse */
   .navbar .form-group,.navbar .nav-stacked {
     text-align: center;
   }
 
+  /*used to give proper padding to the the copyright text in the footer in the mobile view.*/
   .mobileallpadding{
     padding-left: 10%;
     padding-right: 10%;
   }
-  .container-fluid>.navbar-header{
-    margin-left: 0;
-    margin-right: 0;
-  }
-  .container-fluid>.navbar-collapse{
-    margin-left: 0;
-    margin-right: 0;
-  }
+
+
   .navbar-collapse .navbar-form{
     margin-left: 0;
     margin-right: 0;
@@ -32,15 +29,19 @@
  
 }
 
+/*Makes the navbar background color into black */
 .navbar .container .nav,nav.iamblack{
   background: black;
   color:white;
 }
 
+/* Removes the navbar  border and its radius  */
 nav.iamblack {
   border-radius: 0;
   border: none;
 }
+
+/*All links the the site are white as the backgroud is black . Along with that when on hover the link becomes pink color */
 
 .navbar a:link{
 	color: white;
@@ -55,6 +56,7 @@ nav.iamblack {
 	color: white;
 }
 
+/*This is used in the main header which also serves as the navbar during mobile view. It gives a top spacing of 15 pixels and a background color of pure white .*/
 .nopadding{
   /*
   padding-left: 0;
@@ -65,12 +67,18 @@ nav.iamblack {
   */
   background-color: white;
 }
+
+/*Turns all the image into full width. This leads to them acting responsively in this case. */
 .fullwidth{
   width: 100%;
 }
+
+/*By default all navbars have a bottom margin . This removes that where required.s */
 .navbar{
   margin-bottom: 0;
 }
+
+/*This is responsbile for the looks of the welcome ,about us, and the services box . */
 .shadow{
 	 box-shadow: 0px 0px 10px #888888;
 	 padding: 5%;
@@ -81,16 +89,22 @@ nav.iamblack {
 .pinktext{
 	color: #df1750;
 }
+
+/*This gives margins to all the main text body inside the welcome , about us and services box.*/
 .margins{
 	margin-left: 0;
 	margin-top: 20px;
 	margin-right: 20px;
 	margin-bottom: 20px;
 }
+
+/*Right aligns the more button inside the boxes Welcome , About US and Services. */
 .rightAlign{
 	text-align: right;
 }
 
+
+/*These apply to the webpage in non mobile mode. */
 @media (min-width: 768px){
   .makeright{
     float: right;
@@ -237,6 +251,12 @@ footer a:link,a:hover,a:active,a:visited{
     padding-left: 20px;
     padding-right: 20px;
   }
+
+  /*Matches the spacing in the navigation bar in mobile mode. The nav buttons are a bit larges without this. */
+  .nav>li>a {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
 }
 
 

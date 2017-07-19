@@ -192,10 +192,11 @@ footer a:link,a:hover,a:active,a:visited{
 }
 
 .rightAlign .btn{
-  background-color:#df1750;
+  background-color:#bf0c3b;
   padding: 0 10px;
   border-radius: 0;
   color: white;
+  border: 0px;
 }
 .navbar-collapse{
   padding-right: 0;
@@ -298,4 +299,9 @@ footer a:link,a:hover,a:active,a:visited{
     padding-right: 5px;
   }
   
+}
+
+
+footer.rightAlign {
+  padding-right: 0px;
 }

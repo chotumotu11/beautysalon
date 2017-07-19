@@ -38,7 +38,7 @@
 /*Makes the navbar background color into black */
 .navbar .container .nav,nav.iamblack{
   background: black;
-  color:white;
+  
 }
 
 /* Removes the navbar  border and its radius  */
@@ -306,3 +306,11 @@ footer a:link,a:hover,a:active,a:visited{
 footer.rightAlign {
   padding-right: 0px;
 }
+
+.navbar.navbar-default.iamblack li a:hover, .iamblack li a:active, .iamblack li a:visited {
+  color: white;
+  background-color: black;
+  font-weight: bold;
+  
+}
+

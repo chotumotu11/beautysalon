@@ -159,8 +159,9 @@ nav.iamblack {
 }
 
 .topmargin{
-  border-top-width: 1px;
-  border-color: #df1750;
+  border-top-width: 2.5px;
+  border-bottom-width: 0px;
+  border-color: #bf0c3b;
   border-style: solid;
   margin-top: 30px;
 }

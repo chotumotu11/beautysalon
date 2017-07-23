@@ -29,8 +29,9 @@
 
   /*Fixes the vertical space alignment in the navbar in mobile view. */
   .navbar .container .nav {
-      padding-top: 5px;
-      padding-bottom: 5px;
+      padding-top: 9px;
+      padding-bottom: 9px;
+      
   }
  
 }
@@ -55,8 +56,8 @@ nav.iamblack {
 .navbar .container .nav li a:hover{
 	color: #df1750;
 }
-.navbar a:active{
-	color: green;
+.navbar .container .nav li a:active{
+	color: #df1750;
 }
 .navbar a:visited{
 	color: white;
@@ -272,6 +273,7 @@ footer a:link,a:hover,a:active,a:visited{
   .nav>li>a {
   padding-top: 6px;
   padding-bottom: 6px;
+    font-size: 8px;
 }
 
 .navbar-form.makeright {

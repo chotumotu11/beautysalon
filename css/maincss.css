@@ -132,6 +132,14 @@ nav.iamblack {
     float: right;
   }
 
+   .navbar a:link{
+	color: white;
+   }
+
+    .navbar a:visited{
+	color: white;
+ }
+
   .alignRight{
     text-align: right;
   }
@@ -342,13 +350,7 @@ footer.rightAlign {
   	font-weight: bold;
 }
 
-  .navbar a:link{
-	color: white;
-   }
-
-    .navbar a:visited{
-	color: white;
- }
+ 
    
 @media (min-width: 992px) and (max-width: 1199px) {
 	.navbar-form .form-control {

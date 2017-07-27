@@ -258,6 +258,12 @@ footer a:link,a:hover,a:active,a:visited{
   .overlapNegative{
     margin-top:-35%;
   }
+
+  .nav > li > a{
+  	padding-left: 7px;
+  	padding-right: 7px;
+  }
+
 }
 
 .navbar-default .navbar-toggle{

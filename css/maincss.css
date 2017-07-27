@@ -1,5 +1,6 @@
 
 @media (max-width: 767px){
+  
   /*Converts the form into an Inline element and the width is given using a relative sizing so that the spacing matches with the desging provided in mobile mode */
   .form-group .makeinline{
     display: inline-block;
@@ -33,6 +34,31 @@
       padding-bottom: 9px;
       
   }
+
+  .navbar a:link{
+	color: white;
+   }
+  .navbar .container .nav li a:hover{
+	color: #df1750;
+  }
+
+
+ .navbar .container .nav li a:active{
+	color: #df1750;
+ }
+
+ .navbar a:visited{
+	color: white;
+ }
+
+ .nav-pills>li.active>a:hover ,  .nav-pills>li.active>a:focus, .nav-pills>li.active>a{
+ 	background-color: white;
+ 	color: #df1750;
+ }
+
+.navbar a:focus{
+	color: #df1750;
+}
  
 }
 
@@ -46,21 +72,6 @@
 nav.iamblack {
   border-radius: 0;
   border: none;
-}
-
-/*All links the the site are white as the backgroud is black . Along with that when on hover the link becomes pink color */
-
-.navbar a:link{
-	color: white;
-}
-.navbar .container .nav li a:hover{
-	color: #df1750;
-}
-.navbar .container .nav li a:active{
-	color: #df1750;
-}
-.navbar a:visited{
-	color: white;
 }
 
 /*This is used in the main header which also serves as the navbar during mobile view. It gives a top spacing of 15 pixels and a background color of pure white .*/
@@ -316,12 +327,21 @@ footer.rightAlign {
   padding-right: 0px;
 }
 
-.navbar.navbar-default.iamblack li a:hover, .iamblack li a:active, .iamblack li a:visited {
+
+
+.navbar.navbar-default.iamblack li a:hover,.iamblack li a:visited{
   color: white;
   background-color: black;
   font-weight: bold;
   
 }
+
+.navbar.navbar-default.iamblack li a.on:link,.navbar.navbar-default.iamblack li a.on:visited{
+	  color: white;
+  	background-color: black;
+  	font-weight: bold;
+}
+
 
 @media (min-width: 992px) and (max-width: 1199px) {
 	.navbar-form .form-control {

@@ -7,6 +7,7 @@
     width: 73%;
   }
   
+
   /*Makes the form aling center and the links in the navbar also get aligned center in the mobile mode ofcourse */
   .navbar .form-group,.navbar .nav-stacked {
     text-align: center;
@@ -125,6 +126,10 @@ nav.iamblack {
 /*These apply to the webpage in non mobile mode. */
 @media (min-width: 768px){
 
+  .borderwithpicture{
+	padding-left: 200px;
+  }
+
  form.navbar-form.makeright {
   	padding-right: 0;
   }	
@@ -172,7 +177,7 @@ nav.iamblack {
     width: 300px;
   }
 
-  .col-xs-12>.pinktext{
+  .bottomspacing{
     margin-bottom: 35px;
   }
 
@@ -308,7 +313,7 @@ footer a:link,a:hover,a:active,a:visited{
 }
 
 
-.col-xs-12>.pinktext {
+.topspacing{
   margin-top: 35px;
 }
 
@@ -362,4 +367,36 @@ footer.rightAlign {
 	.navbar-form .form-control {
 		width: 250px;
 	}
+}
+
+
+
+/* Make footers awesome */
+
+.makefooter {
+
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (max-width: 767px){
+  .makefooter{
+    padding: 0 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  .makefooter {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .makefooter {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .makefooter {
+    width: 1170px;
+  }
 }

@@ -1,65 +1,65 @@
 
 @media (max-width: 767px){
   
-  /*Converts the form into an Inline element and the width is given using a relative sizing so that the spacing matches with the desging provided in mobile mode */
-  .form-group .makeinline{
-    display: inline-block;
-    width: 73%;
-  }
-  
-
-  /*Makes the form aling center and the links in the navbar also get aligned center in the mobile mode ofcourse */
-  .navbar .form-group,.navbar .nav-stacked {
-    text-align: center;
-  }
-
-  /*used to give proper padding to the the copyright text in the footer in the mobile view.*/
-  .mobileallpadding{
-    padding-left: 10%;
-    padding-right: 10%;
-  }
-
-
-  .navbar-collapse .navbar-form{
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  .aligncenter{
-  text-align: center;
-  }
-
-  /*Fixes the vertical space alignment in the navbar in mobile view. */
-  .navbar .container .nav {
-      padding-top: 9px;
-      padding-bottom: 9px;
+      /*Converts the form into an Inline element and the width is given using a relative sizing so that the spacing matches with the desging provided in mobile mode */
+      .form-group .makeinline{
+        display: inline-block;
+        width: 73%;
+      }
       
-  }
 
-  .navbar a:link{
-	color: white;
-   }
-  .navbar .container .nav li a:hover{
-	color: #df1750;
-  }
+      /*Makes the form aling center and the links in the navbar also get aligned center in the mobile mode ofcourse */
+      .navbar .form-group,.navbar .nav-stacked {
+        text-align: center;
+      }
+
+      /*used to give proper padding to the the copyright text in the footer in the mobile view.*/
+      .mobileallpadding{
+        padding-left: 10%;
+        padding-right: 10%;
+      }
 
 
- .navbar .container .nav li a:active{
-	color: #df1750;
- }
+      .navbar-collapse .navbar-form{
+        margin-left: 0;
+        margin-right: 0;
+      }
 
- .navbar a:visited{
-	color: white;
- }
+      .aligncenter{
+      text-align: center;
+      }
 
- .nav-pills>li.active>a:hover ,  .nav-pills>li.active>a:focus, .nav-pills>li.active>a{
- 	background-color: white;
- 	color: #df1750;
- }
+      /*Fixes the vertical space alignment in the navbar in mobile view. */
+      .navbar .container .nav {
+          padding-top: 9px;
+          padding-bottom: 9px;
+          
+      }
 
-.navbar a:focus{
-	color: #df1750;
-}
+      .navbar a:link{
+    	color: white;
+       }
+      .navbar .container .nav li a:hover{
+    	color: #df1750;
+      }
+
+
+     .navbar .container .nav li a:active{
+    	color: #df1750;
+     }
+
+     .navbar a:visited{
+    	color: white;
+     }
+
+     .nav-pills>li.active>a:hover ,  .nav-pills>li.active>a:focus, .nav-pills>li.active>a{
+     	background-color: white;
+     	color: #df1750;
+     }
+
+    .navbar a:focus{
+    	color: #df1750;
+    }
  
 }
 
@@ -126,65 +126,65 @@ nav.iamblack {
 /*These apply to the webpage in non mobile mode. */
 @media (min-width: 768px){
 
-  .borderwithpicture{
-	padding-left: 200px;
-  }
+    .borderwithpicture{
+  	padding-left: 200px;
+    }
 
- form.navbar-form.makeright {
-  	padding-right: 0;
-  }	
-  .makeright{
-    float: right;
-  }
+   form.navbar-form.makeright {
+    	padding-right: 0;
+    }	
+    .makeright{
+      float: right;
+    }
 
-   .navbar a:link{
-	color: white;
+     .navbar a:link{
+  	color: white;
+     }
+
+      .navbar a:visited{
+  	color: white;
    }
 
-    .navbar a:visited{
-	color: white;
- }
+    .alignRight{
+      text-align: right;
+    }
+    .overlapNegative{
+  		margin-top: -26%;
+  		background-color: white;
+  	}
+    .mobilecenter{
+      clear: both;
+    }
 
-  .alignRight{
-    text-align: right;
-  }
-  .overlapNegative{
-		margin-top: -26%;
-		background-color: white;
-	}
-  .mobilecenter{
-    clear: both;
-  }
+    .pullright{
+      float: right;
+    }
+    .pullleft{
+      float: left;
+    }
+    .padding10{
+      padding-right: 1vw;
+    }
 
-  .pullright{
-    float: right;
-  }
-  .pullleft{
-    float: left;
-  }
-  .padding10{
-    padding-right: 1vw;
-  }
+    .footermenu{
+        width: 50%;
+    }
 
-  .footermenu{
-      width: 50%;
-  }
+    .navbar > .container-fluid .navbar-brand{
+      margin-left: 0;
+    }
+    .navbar-form .form-control{
+      width: 300px;
+    }
 
-  .navbar > .container-fluid .navbar-brand{
-    margin-left: 0;
-  }
-  .navbar-form .form-control{
-    width: 300px;
-  }
+    .bottomspacing{
+      margin-bottom: 35px;
+    }
 
-  .bottomspacing{
-    margin-bottom: 35px;
-  }
-
-  /*Fixes the vertical space alignment in the navbar in desktop view. */
-  .navbar .container .nav {
-  padding-top: 5px;
-  }
+    /*Fixes the vertical space alignment in the navbar in desktop view. */
+    .navbar .container .nav {
+    padding-top: 5px;
+    }
 }
 
 .topmargin{
@@ -257,17 +257,17 @@ footer a:link,a:hover,a:active,a:visited{
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  .footerFixSetFontSizeTo10{
-    font-size: 12px;
-  }
-  .overlapNegative{
-    margin-top:-35%;
-  }
+    .footerFixSetFontSizeTo10{
+      font-size: 12px;
+    }
+    .overlapNegative{
+      margin-top:-35%;
+    }
 
-  .nav > li > a{
-  	padding-left: 7px;
-  	padding-right: 7px;
-  }
+    .nav > li > a{
+    	padding-left: 7px;
+    	padding-right: 7px;
+    }
 
 }
 
@@ -283,33 +283,33 @@ footer a:link,a:hover,a:active,a:visited{
 }
 
 @media (max-width: 767px){
-  .shadow{
-    margin-top: 25px;
-  }
+      .shadow{
+        margin-top: 25px;
+      }
 
-  .topmargin{
-    margin-bottom: 0px;
-  }
-  .padding7px{
-     padding-top: 20px;
-  }
+      .topmargin{
+        margin-bottom: 0px;
+      }
+      .padding7px{
+         padding-top: 20px;
+      }
 
-  .col-xs-12 {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
+      .col-xs-12 {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
 
-  /*Matches the spacing in the navigation bar in mobile mode. The nav buttons are a bit larges without this. */
-  .nav>li>a {
-  padding-top: 6px;
-  padding-bottom: 6px;
-    font-size: 8px;
-}
+      /*Matches the spacing in the navigation bar in mobile mode. The nav buttons are a bit larges without this. */
+      .nav>li>a {
+      padding-top: 6px;
+      padding-bottom: 6px;
+        font-size: 8px;
+    }
 
-.navbar-form.makeright {
-  padding-left: 20px;
-  padding-right: 20px;
-}
+    .navbar-form.makeright {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
 }
 
 
@@ -323,22 +323,22 @@ footer a:link,a:hover,a:active,a:visited{
 
 
 @media (min-width: 992px) {
-    .container .row div.col-sm-4 {
-    padding-left: 7px;
-    padding-right: 7px;
+      .container .row div.col-sm-4 {
+      padding-left: 7px;
+      padding-right: 7px;
 
-  }
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px){
-  .container .row div.col-sm-4 {
-    padding-left: 5px;
-    padding-right: 5px;
-  }
+    .container .row div.col-sm-4 {
+      padding-left: 5px;
+      padding-right: 5px;
+    }
 
-  .navbar-form .form-control {
-		width: 180px;
-	}
+    .navbar-form .form-control {
+  		width: 180px;
+  	}
 }
 
 
@@ -364,9 +364,9 @@ footer.rightAlign {
  
    
 @media (min-width: 992px) and (max-width: 1199px) {
-	.navbar-form .form-control {
-		width: 250px;
-	}
+  	.navbar-form .form-control {
+  		width: 250px;
+  	}
 }
 
 
@@ -380,23 +380,23 @@ footer.rightAlign {
 }
 
 @media (max-width: 767px){
-  .makefooter{
-    padding: 0 15px;
-  }
+    .makefooter{
+      padding: 0 15px;
+    }
 }
 
 @media (min-width: 768px) {
-  .makefooter {
-    width: 750px;
-  }
+    .makefooter {
+      width: 750px;
+    }
 }
 @media (min-width: 992px) {
-  .makefooter {
-    width: 970px;
-  }
+    .makefooter {
+      width: 970px;
+    }
 }
 @media (min-width: 1200px) {
-  .makefooter {
-    width: 1170px;
-  }
+    .makefooter {
+      width: 1170px;
+    }
 }

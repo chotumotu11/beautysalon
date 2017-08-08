@@ -1,5 +1,10 @@
 
 @media (max-width: 767px){
+
+
+      .navbar-header{
+        padding-bottom: 10px;
+      }
   
       /*Converts the form into an Inline element and the width is given using a relative sizing so that the spacing matches with the desging provided in mobile mode */
       .form-group .makeinline{
@@ -31,35 +36,41 @@
 
       /*Fixes the vertical space alignment in the navbar in mobile view. */
       .navbar .container .nav {
-          padding-top: 9px;
-          padding-bottom: 9px;
+          padding-top: 12px;
+          padding-bottom: 12px;
           
       }
 
       .navbar a:link{
-    	color: white;
+    	  color: white;
+        background-color: black;
        }
       .navbar .container .nav li a:hover{
     	color: #df1750;
+      border-radius: 0px;
       }
 
-
+      /*
      .navbar .container .nav li a:active{
     	color: #df1750;
      }
+     */
 
      .navbar a:visited{
+        color:white;
+     }
+
+
+    .navbar .nav.nav-pills li>a:focus{
     	color: white;
-     }
-
-     .nav-pills>li.active>a:hover ,  .nav-pills>li.active>a:focus, .nav-pills>li.active>a{
-     	background-color: white;
-     	color: #df1750;
-     }
-
-    .navbar a:focus{
-    	color: #df1750;
+      background-color: black;
     }
+
+     .nav-pills>li.on>a:hover , .nav-pills>li.on>a:focus, .nav-pills>li.on>a{
+      background-color: white;
+      color: #df1750;
+      border-radius: 0px;
+     }
  
 }
 
@@ -301,14 +312,14 @@ footer a:link,a:hover,a:active,a:visited{
 
       /*Matches the spacing in the navigation bar in mobile mode. The nav buttons are a bit larges without this. */
       .nav>li>a {
-      padding-top: 6px;
-      padding-bottom: 6px;
-        font-size: 8px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
     }
-
     .navbar-form.makeright {
-      padding-left: 20px;
-      padding-right: 20px;
+      padding-left: 0px;
+      padding-right: 0px;
     }
 }
 
@@ -399,4 +410,17 @@ footer.rightAlign {
     .makefooter {
       width: 1170px;
     }
+}
+
+
+.navbar-toggle .icon-bar + .icon-bar{
+  margin-top: 2px;
+}
+
+.navbar-toggle .icon-bar{
+  height: 4px;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+  background-color: #090000;
 }

@@ -119,6 +119,12 @@ nav.iamblack {
 /*These apply to the webpage in non mobile mode. */
 @media (min-width: 768px){
 
+  .rightfooterpadding{
+    padding-right: 5px;
+  }
+  .leftfooterpadding {
+    padding-left: 5px;
+  }
   .borderwithpicture{
     padding-left: 200px;
   }

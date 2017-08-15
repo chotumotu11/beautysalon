@@ -22,25 +22,23 @@
     margin-right: 0;
   }
 
-      .aligncenter{
-      text-align: center;
-      }
+  .aligncenter{
+    text-align: center;
+  }
+  /*Fixes the vertical space alignment in the navbar in mobile view. */
+  .navbar .container .nav {
+    padding-top: 12px;
+    padding-bottom: 12px;    
+  }
 
-      /*Fixes the vertical space alignment in the navbar in mobile view. */
-      .navbar .container .nav {
-          padding-top: 12px;
-          padding-bottom: 12px;
-          
-      }
-
-      .navbar a:link{
-    	  color: white;
-        background-color: black;
-       }
-      .navbar .container .nav li a:hover{
-    	color: #df1750;
-      border-radius: 0px;
-      }
+  .navbar a:link{
+    color: white;
+    background-color: black;
+  }
+  .navbar .container .nav li a:hover{
+    color: #df1750;
+    border-radius: 0px;
+  }
 
       /*
      .navbar .container .nav li a:active{
@@ -48,28 +46,26 @@
      }
      */
 
-     .navbar a:visited{
-        color:white;
-     }
+  .navbar a:visited{
+    color:white;
+  }
 
+  .navbar .nav.nav-pills li>a:focus{
+    color: white;
+    background-color: black;
+  }
 
-    .navbar .nav.nav-pills li>a:focus{
-    	color: white;
-      background-color: black;
-    }
-
-     .nav-pills>li.on>a:hover , .nav-pills>li.on>a:focus, .nav-pills>li.on>a{
-      background-color: white;
-      color: #df1750;
-      border-radius: 0px;
-     }
+  .nav-pills>li.on>a:hover , .nav-pills>li.on>a:focus, .nav-pills>li.on>a{
+    background-color: white;
+    color: #df1750;
+    border-radius: 0px;
+  }
  
 }
 
 /*Makes the navbar background color into black */
 .navbar .container .nav,nav.iamblack{
   background: black;
-  
 }
 
 /* Removes the navbar  border and its radius  */
@@ -80,13 +76,7 @@ nav.iamblack {
 
 /*This is used in the main header which also serves as the navbar during mobile view. It gives a top spacing of 15 pixels and a background color of pure white .*/
 .nopadding{
-  /*
-  padding-left: 0;
-  */
   padding-top: 15px;
-  /*
-  padding-right: 0;
-  */
   background-color: white;
 }
 
@@ -129,65 +119,62 @@ nav.iamblack {
 /*These apply to the webpage in non mobile mode. */
 @media (min-width: 768px){
 
-    .borderwithpicture{
-  	padding-left: 200px;
-    }
+  .borderwithpicture{
+    padding-left: 200px;
+  }
 
-   form.navbar-form.makeright {
-    	padding-right: 0;
-    }	
-    .makeright{
-      float: right;
-    }
+  form.navbar-form.makeright {
+    padding-right: 0;
+  }	
+  .makeright{
+    float: right;
+  }
 
-     .navbar a:link{
+  .navbar a:link{
   	color: white;
-     }
+  }
 
-      .navbar a:visited{
+  .navbar a:visited{
   	color: white;
-   }
+  }
 
-    .alignRight{
-      text-align: right;
-    }
-    .overlapNegative{
-  		margin-top: -26%;
-  		background-color: white;
-  	}
-    .mobilecenter{
-      clear: both;
-    }
+  .alignRight{
+    text-align: right;
+  }
+  .overlapNegative{
+  	margin-top: -26%;
+  	background-color: white;
+  }
+  .mobilecenter{
+    clear: both;
+  }
 
-    .pullright{
-      float: right;
-    }
-    .pullleft{
-      float: left;
-    }
-    .padding10{
-      padding-right: 1vw;
-    }
+  .pullright{
+    float: right;
+  }
+  .pullleft{
+    float: left;
+  }
+  .padding10{
+    padding-right: 1vw;
+  }
+  .footermenu{
+    width: 50%;
+  }
 
-    .footermenu{
-        width: 50%;
-    }
-
-    .navbar > .container-fluid .navbar-brand{
-      margin-left: 0;
-    }
-    .navbar-form .form-control{
-      width: 300px;
-    }
-
-    .bottomspacing{
-      margin-bottom: 35px;
-    }
-
-    /*Fixes the vertical space alignment in the navbar in desktop view. */
-    .navbar .container .nav {
+  .navbar > .container-fluid .navbar-brand{
+    margin-left: 0;
+  }
+  .navbar-form .form-control{
+    width: 300px;
+  }
+  .bottomspacing{
+    margin-bottom: 35px;
+  }
+   /*Fixes the vertical space alignment in the navbar in desktop view. */
+  .navbar .container .nav {
     padding-top: 5px;
-    }
+  }
 }
 
 .topmargin{
@@ -260,18 +247,16 @@ footer a:link,a:hover,a:active,a:visited{
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    .footerFixSetFontSizeTo10{
-      font-size: 12px;
-    }
-    .overlapNegative{
-      margin-top:-35%;
-    }
-
-    .nav > li > a{
-    	padding-left: 7px;
-    	padding-right: 7px;
-    }
-
+  .footerFixSetFontSizeTo10{
+    font-size: 12px;
+  }
+  .overlapNegative{
+    margin-top:-35%;
+  }
+  .nav > li > a{
+    padding-left: 7px;
+    padding-right: 7px;
+  }
 }
 
 .navbar-default .navbar-toggle{
@@ -280,39 +265,36 @@ footer a:link,a:hover,a:active,a:visited{
 
 
 @media (min-width: 992px) and (max-width: 1199px){
-    .container .row div.col-md-offset-1 {
-        margin-left: 40px;
-    }
+  .container .row div.col-md-offset-1 {
+    margin-left: 40px;
+  }
 }
 
 @media (max-width: 767px){
-      .shadow{
-        margin-top: 25px;
-      }
-
-      .topmargin{
-        margin-bottom: 0px;
-      }
-      .padding7px{
-         padding-top: 20px;
-      }
-
-      .col-xs-12 {
-        padding-left: 20px;
-        padding-right: 20px;
-      }
-
-      /*Matches the spacing in the navigation bar in mobile mode. The nav buttons are a bit larges without this. */
-      .nav>li>a {
-        padding-top: 5px;
-        padding-bottom: 5px;
-        font-size: 14px;
-        font-family: 'Open Sans', sans-serif;
-    }
-    .navbar-form.makeright {
-      padding-left: 0px;
-      padding-right: 0px;
-    }
+  .shadow{
+    margin-top: 25px;
+  }
+  .topmargin{
+    margin-bottom: 0px;
+  }
+  .padding7px{
+    padding-top: 20px;
+  }
+  .col-xs-12 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  /*Matches the spacing in the navigation bar in mobile mode. The nav buttons are a bit larges without this. */
+  .nav>li>a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .navbar-form.makeright {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 }
 
 
@@ -326,22 +308,20 @@ footer a:link,a:hover,a:active,a:visited{
 
 
 @media (min-width: 992px) {
-      .container .row div.col-sm-4 {
-      padding-left: 7px;
-      padding-right: 7px;
-
-    }
+  .container .row div.col-sm-4 {
+    padding-left: 7px;
+    padding-right: 7px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px){
-    .container .row div.col-sm-4 {
-      padding-left: 5px;
-      padding-right: 5px;
-    }
-
-    .navbar-form .form-control {
-  		width: 180px;
-  	}
+  .container .row div.col-sm-4 {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .navbar-form .form-control {
+  	width: 180px;
+  }
 }
 
 
@@ -359,17 +339,17 @@ footer.rightAlign {
 }
 
 .navbar.navbar-default.iamblack li a.on:link,.navbar.navbar-default.iamblack li a.on:visited{
-	  color: white;
-  	background-color: black;
-  	font-weight: bold;
+	color: white;
+  background-color: black;
+  font-weight: bold;
 }
 
  
    
 @media (min-width: 992px) and (max-width: 1199px) {
-  	.navbar-form .form-control {
-  		width: 250px;
-  	}
+  .navbar-form .form-control {
+  	width: 250px;
+  }
 }
 
 
@@ -377,31 +357,30 @@ footer.rightAlign {
 /* Make footers awesome */
 
 .makefooter {
-
   margin-right: auto;
   margin-left: auto;
 }
 
 @media (max-width: 767px){
-    .makefooter{
-      padding: 0 15px;
-    }
+  .makefooter{
+    padding: 0 15px;
+  }
 }
 
 @media (min-width: 768px) {
-    .makefooter {
-      width: 750px;
-    }
+  .makefooter {
+    width: 750px;
+  }
 }
 @media (min-width: 992px) {
-    .makefooter {
-      width: 970px;
-    }
+  .makefooter {
+    width: 970px;
+  }
 }
 @media (min-width: 1200px) {
-    .makefooter {
-      width: 1170px;
-    }
+  .makefooter {
+    width: 1170px;
+  }
 }
 
 

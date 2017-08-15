@@ -1,34 +1,26 @@
 
 @media (max-width: 767px){
-
-
-      .navbar-header{
-        padding-bottom: 10px;
-      }
-  
-      /*Converts the form into an Inline element and the width is given using a relative sizing so that the spacing matches with the desging provided in mobile mode */
-      .form-group .makeinline{
-        display: inline-block;
-        width: 73%;
-      }
-      
-
-      /*Makes the form aling center and the links in the navbar also get aligned center in the mobile mode ofcourse */
-      .navbar .form-group,.navbar .nav-stacked {
-        text-align: center;
-      }
-
-      /*used to give proper padding to the the copyright text in the footer in the mobile view.*/
-      .mobileallpadding{
-        padding-left: 10%;
-        padding-right: 10%;
-      }
-
-
-      .navbar-collapse .navbar-form{
-        margin-left: 0;
-        margin-right: 0;
-      }
+  .navbar-header{
+    padding-bottom: 10px;
+  }
+  /*Converts the form into an Inline element and the width is given using a relative sizing so that the spacing matches with the desging provided in mobile mode */
+  .form-group .makeinline{
+    display: inline-block;
+    width: 73%;
+  }
+  /*Makes the form aling center and the links in the navbar also get aligned center in the mobile mode ofcourse */
+  .navbar .form-group,.navbar .nav-stacked {
+    text-align: center;
+  }
+  /*used to give proper padding to the the copyright text in the footer in the mobile view.*/
+  .mobileallpadding{
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .navbar-collapse .navbar-form{
+    margin-left: 0;
+    margin-right: 0;
+  }
 
       .aligncenter{
       text-align: center;
